@@ -17,16 +17,16 @@ namespace Hospital_management_system.mainmod
         
         public void app()
         {
-            //Console.WriteLine("This Function is GetAppointmentbyID");
-            // hospital.GetAppointmentById();// --working
-            //Console.WriteLine("This Function is ScheduleAppointmentt");
-            //hospital.ScheduleAppointment(); //--Giving Error 
-            //Console.WriteLine("This Function is GetAppointmentForPatient");
-              hospital.GetAppointmentForPatient(); //--working
-            //Console.WriteLine("This Function is GetAppointmentforDoctors");
-            //  hospital.GetAppointmentsForDoctors(); //--working
-            //Console.WriteLine("This Function is CancelAppointment");
-            //   hospital.CancelAppointment(); //--working
+          Console.WriteLine("This Function is GetAppointmentbyID");
+hospital.GetAppointmentById();
+Console.WriteLine("This Function is GetAppointmentForPatient");
+hospital.GetAppointmentForPatient(); 
+Console.WriteLine("This Function is GetAppointmentforDoctors");
+hospital.GetAppointmentsForDoctors(); 
+Console.WriteLine("This Function is CancelAppointment");
+hospital.CancelAppointment();
+Console.WriteLine("This Function is ScheduleAppointmentt");
+hospital.ScheduleAppointment();
         }
     }
 }
